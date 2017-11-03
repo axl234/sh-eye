@@ -1,0 +1,22 @@
+{
+  "apps": [{
+    "name": "hawk-eye",
+    "script": "./www/production.js",
+    "max_memory_restart": "100M",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+
+    }
+  },{
+    "name": "monitor-pp",
+    "script": "./scripts/monitor-pp.js",
+    "max_memory_restart": "300M",
+    "node_args": [],
+    "args": [],
+    "env": {
+
+    }
+  }]
+}
